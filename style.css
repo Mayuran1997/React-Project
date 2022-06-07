@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+}
+.formdiv {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form,
+.text {
+  width: 25%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+input {
+  width: 50%;
+  padding: 8px 10px;
+  outline: none;
+}
+.submit {
+  text-align: center;
+}
+input[type="submit"] {
+  width: auto;
+  padding: 10px;
+  background-color: chocolate;
+  color: white;
+  border: 1px dotted black;
+  border-radius: 5px;
+}
+.text {
+  text-align: center;
+  background-color: white;
+}
+.text p {
+  color: white;
+  padding: 10px;
+  background-color: green;
+  border-radius: 10px;
+  width: auto;
+}
+#para {
+  display: none;
+}
+#name {
+  text-transform: capitalize;
+}
