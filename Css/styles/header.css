@@ -1,0 +1,142 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 55px;
+
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgb(223, 217, 217);
+}
+.h-left {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.menu-icon {
+  height: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logo-icon {
+  height: 22px;
+}
+.h-middle {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.search {
+  flex: 1;
+  height: 36px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid rgb(192, 190, 190);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search::placeholder {
+  font-family: Roboto Arial;
+  font-size: 16px;
+}
+.search-btn {
+  width: 66px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(192, 190, 190);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.search-btn .tooltip,
+.voice-btn .tooltip,
+.upload-container .tooltip,
+.youtube-container .tooltip {
+  position: absolute;
+  font-family: Roboto Arial;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background-color: gray;
+  color: white;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-btn:hover .tooltip,
+.voice-btn:hover .tooltip,
+.upload-container:hover .tooltip,
+.youtube-container:hover .tooltip {
+  opacity: 1;
+}
+.search-btn,
+.voice-btn,
+.upload-container,
+.youtube-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(248, 248, 248);
+}
+
+.search-icon {
+  height: 25px;
+}
+.voice-icon {
+  height: 24px;
+}
+.h-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload-icon {
+  height: 24px;
+}
+.apps-icon {
+  height: 24px;
+}
+.noti-icon {
+  height: 24px;
+}
+.noti-container {
+  position: relative;
+}
+.noti-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(196, 11, 11);
+  color: white;
+  font-family: Roboto Arial;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+.avatar-icon {
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}

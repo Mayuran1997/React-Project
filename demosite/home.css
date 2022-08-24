@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap");
+body {
+  background-color: #3c3176;
+  font-family: "Mali", cursive;
+}
+.logo {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 40px;
+  font-family: fantasy;
+}
+header {
+  background-color: black;
+}
+h2 {
+  color: #10073b;
+}
+img {
+  max-width: 150px;
+  float: right;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  background-color: #231858;
+  color: white;
+  width: 70px;
+  padding: 5px 20px;
+  margin: 5px;
+  text-align: center;
+}
+section {
+  background-color: #867db0;
+  border: 3px dotted white;
+  margin: 5px 0px;
+  padding: 5px;
+  min-height: 300px;
+}
+footer {
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}

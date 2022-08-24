@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>Demo App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Form Registration</h1>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="firstname" id="fid">FirstName:</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstname"
+          placeholder="Enter your firstname"
+          required
+        /><br />
+        <label for="lastname" id="fid">LastName:</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastname"
+          placeholder="Enter your lastname"
+        /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        /><br />
+        <label for="gender">Gender:</label><br />
+        <input type="radio" value="male" name="gender" id="gender" />
+        <label for="gender">Male</label>
+        <input type="radio" value="female" name="gender" id="gender" />
+        <label for="gender">Female</label>
+      </fieldset>
+      <br />
+      <h3>Security Questions:</h3>
+      <label for="q1">What is your School Name?</label>
+      <input
+        type="text"
+        name="schoolname"
+        id="q1"
+        placeholder="Enter your school name"
+        required
+      /><br />
+      <br />
+      <label for="q2">What is your pet name?</label>
+      <input
+        type="text"
+        name="petname"
+        id="q2"
+        placeholder="Enter your pet name"
+        required
+      /><br /><br />
+      <label for="status">Marital Status</label>
+      <input type="text" name="mstatus" id="status" list="status1" />
+      <datalist id="status1">
+        <option>Single</option>
+        <option>Married</option>
+      </datalist>
+      <br />
+      <input type="submit" />
+    </form>
+    <div>
+      <img src="./images/spd.jpg" alt="dummy image" />
+    </div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+      praesentium, officiis enim exercitationem minima deserunt dolorum atque
+      quasi quibusdam quam nulla veritatis numquam aut consequuntur facere
+      omnis. Labore, similique quis.
+    </p>
+    <div class="container">
+      <div>Element1</div>
+      <div>Element2</div>
+      <div>Element3</div>
+      <div>Element4</div>
+    </div>
+  </body>
+</html>
